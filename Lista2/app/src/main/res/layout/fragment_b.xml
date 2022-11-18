@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentB">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="37dp"
+    android:orientation="horizontal"
+    android:translationY="0dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Case: " />
+    <TextView
+        android:id="@+id/caseId"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_height="37dp"
+        android:orientation="horizontal"
+        android:translationY="20dp">
+    <TextView
+        android:id="@+id/Liner"
+        android:layout_width="450dp"
+        android:layout_height="88dp"
+        android:text="___________________________________________________________________________________________________________________________________________________________"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_height="37dp"
+        android:orientation="horizontal"
+        android:translationY="60dp">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Name: " />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_height="37dp"
+        android:orientation="horizontal"
+        android:translationY="120dp">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Date: " />
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_height="37dp"
+        android:orientation="horizontal"
+        android:translationY="180dp">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Solved: " />
+        <TextView
+            android:id="@+id/solve"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="337dp"
+        android:orientation="horizontal"
+        android:translationY="220dp">
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Crime discribe:"/>
+        <TextView
+            android:translationY="0dp"
+            android:translationX="-380dp"
+            android:id="@+id/lorem"
+            android:layout_width="390dp"
+            android:layout_height="400dp"
+            android:textSize="17dp"
+            android:text="                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+    </LinearLayout>
+
+</FrameLayout>
