@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/BFragment">
+
+    <fragment
+        android:id="@+id/Afragment"
+        android:name="pl.edu.uwr.lista3.add_fragment"
+        android:label="fragment_a"
+        tools:layout="@layout/fragment_a" />
+    <fragment
+        android:id="@+id/BFragment"
+        android:name="pl.edu.uwr.lista3.BFragment"
+        android:label="fragment_b"
+        tools:layout="@layout/fragment_b" >
+        <action
+            android:id="@+id/action_BFragment_to_Afragment"
+            app:destination="@id/Afragment" />
+    </fragment>
+</navigation>
