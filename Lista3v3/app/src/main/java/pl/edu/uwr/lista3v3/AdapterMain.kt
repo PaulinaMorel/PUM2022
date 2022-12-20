@@ -42,7 +42,6 @@ class AdapterMain: RecyclerView.Adapter<AdapterMain.listMainViewHolder>() {
     }
 
     override fun getItemCount(): Int {
-        println(lista.size)
         return lista.size
     }
 }

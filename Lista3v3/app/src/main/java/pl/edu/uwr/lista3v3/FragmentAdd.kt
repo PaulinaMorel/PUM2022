@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import pl.edu.uwr.lista3v3.databinding.FragmentAddBinding
 
 
@@ -29,11 +30,11 @@ class FragmentAdd : Fragment() {
 
             binding.buttonSAVE.setOnClickListener{
 
-                println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS")
                 val updateInfo = binding.editTextText.text.toString()
                 if (updateInfo.isNotEmpty()) {
                     val d = TabelaList(0,0,updateInfo,numberoflist,0)
                     dbHandler.addElement(d)
+                    Toast.makeText(context, "SUCCESS", Toast.LENGTH_SHORT).show()
                 }
 
             }

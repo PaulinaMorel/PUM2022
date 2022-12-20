@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.RecyclerView
 import pl.edu.uwr.lista3v3.databinding.DetalViewBinding
 
 class PagerAdapter (private val dbHandler: DBHandler, private val number: Int): RecyclerView.Adapter<PagerAdapter.ViewHolder>() {
-//private lateinit var binding: DetalViewBinding
     class ViewHolder(private var itemBinding: DetalViewBinding) : RecyclerView.ViewHolder(itemBinding.root) {
         val del = itemBinding.DELETE
         val edit = itemBinding.EDIT

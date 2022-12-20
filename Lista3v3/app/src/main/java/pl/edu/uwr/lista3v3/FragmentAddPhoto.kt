@@ -64,11 +64,6 @@ class FragmentAddPhoto : Fragment() {
 
                     if(addItemResult > 0) {
                         Toast.makeText(context, "SUCCESS", Toast.LENGTH_SHORT).show()
-                        /*view.findNavController().navigate(
-                            FragmentGaleryDirections.actionFragmentGaleryToFragmentAddPhoto(
-                                valNum = num
-                            )
-                        )*/
                     }
 
 

@@ -20,12 +20,10 @@ class DetalFragment : Fragment() {
     private val dbHandler by lazy {
         DBHandler(requireContext())
     }
-    //private lateinit var binding: FragmentDetalBinding
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
             savedInstanceState: Bundle?
         ): View? {
-            // Inflate the layout for this fragment
             return inflater.inflate(R.layout.fragment_detal, container, false)
         }
 

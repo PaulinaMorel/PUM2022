@@ -48,7 +48,7 @@ class DBHandler(context: Context) : SQLiteOpenHelper(
         contentValues.put(COLUMN_TYPE, element.type)
 
         db.insert(TABLE_KOTLIN, null, contentValues)
-        println("dODANE")
+
         db.close()
     }
 
@@ -149,7 +149,6 @@ try{
                     var emptyL:List<TabelaList> = listOf(TabelaList(0,0,"none",0, 0))
                     return emptyL
                 }else {
-                    println("JEST ZDJECIE")
                     return endlist
                 }
     }
