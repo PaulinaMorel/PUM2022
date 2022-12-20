@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.navigation.findNavController
 import pl.edu.uwr.lista3v3.databinding.FragmentEditBinding
 
@@ -36,6 +37,7 @@ class FragmentEdit : Fragment() {
                 val updateInfo = binding.editTextText1.text.toString()
                 if (updateInfo.isNotEmpty()) {
                     dbHandler.updateElement(iD, updateInfo)
+                    Toast.makeText(context, "SUCCESS", Toast.LENGTH_SHORT).show()
                 }
 
             }
